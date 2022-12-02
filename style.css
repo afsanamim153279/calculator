@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(ph.jpeg);
+   background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: "papyrus";
+}
+input{
+    height: 70px;
+    width: 90px;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.btn{
+    border: 2px solid grey;
+    border-radius: 60%;
+    background-color: rgb(255, 255, 255);
+}
+.btn:hover{
+    cursor: pointer;
+    color: grey;
+    background-color: aquamarine;
+    transition: 0.6s;
+    transform: translateY(-7px);
+}
